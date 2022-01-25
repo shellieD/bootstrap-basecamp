@@ -46,7 +46,7 @@
         <a href="/login">Sign In / Sign Up</a>
     </div>
     </nav>
-    <div class = "container mt-3">
+   <!--<div class = "container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning text-center">
@@ -55,16 +55,20 @@
                 </div>
             </div>
         </div>
+    </div> -->
         <!-- Callout -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1> The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header"> The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider-red">
                     <p class="lead">Sign up today to start receiving the world's best whiskey every month. 
                     <s class="d-none d-sm-inline">£19.99</s> 
                     <span class="d-inline d-sm-none"><br></span>
                     <strong><mark>The first one is free!</mark> </strong></p> 
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    <button class="btn btn--cta btn--red btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service.  Please, drink responsibly.</small></p>
                 </section>
             </div>
@@ -74,7 +78,7 @@
       
 
     <!-- Quotes -->
-    <div class="container" class="quotes">
+    <div class="container" class="quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -116,7 +120,7 @@
     <hr>
 
     <!-- Features -->
-    <div class="container features">
+    <div class="container features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -150,7 +154,7 @@
     </div>
     <!-- /. features -->
 
-    <div class="container" class="favourites">
+    <div class="container" class="favourites-container">
         <section>
             <h2 class="text-uppercase">Monthly Favourites</h2>
             <div class="favorites">
