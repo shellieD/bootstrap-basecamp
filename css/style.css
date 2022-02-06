@@ -95,6 +95,6 @@ h1, h2, h3 {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus{
-    background-color:#f05f40;
-    border-color: #f05f40;
+    background-color:#a32509;
+    border-color: #a32509;
 }
